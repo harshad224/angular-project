@@ -1,0 +1,16 @@
+<div class="card">
+<form [formGroup]="register" class="container" (ngSubmit)="submitregistration()">
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label for="inputEmail4">SIGNUP</label><br><br>
+        <input type="email" class="form-control" id="inputEmail4" placeholder="Email" formControlName="remail">
+      </div><br>
+      <div class="form-group col-md-6">
+        <input type="password" autocomplete="current-password" class="form-control" id="inputPassword4" placeholder="Password" formControlName="rpassword">
+      </div>
+    </div><br>
+    <button type="submit" class="btn btn-primary">Sign in</button>
+    <br>
+<a routerLink="/login/" >Click here to Login</a>
+  </form>
+</div>

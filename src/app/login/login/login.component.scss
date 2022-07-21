@@ -1,0 +1,40 @@
+p {
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+form{
+    align-items: center;
+    width: 20rem;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 28rem;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    opacity: 0.8;
+    background-color: blue;
+}
+// .a{
+//     margin-left: 30rem;
+// }
+label{
+    color: white;
+    font-size: 30px;
+}
+button{
+    background: transparent;
+    border: 1px solid white;
+    margin-left: 7rem;
+    
+}
+
+a{
+    color: white;
+float: right;
+}

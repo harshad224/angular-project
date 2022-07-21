@@ -1,0 +1,41 @@
+// .form-control{
+//     width: 30rem;
+// }
+
+.btn-primary{
+    width: 5rem;
+    margin-left:7rem;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+label{
+    font-weight: 600;
+    font-size: 30px;
+    color:white;
+margin-left: 6.5rem;
+font-stretch:extra-expanded;
+}
+input:focus{
+    background-color: aquamarine;
+}
+input{
+    border-color: blue;
+    width: 20rem;
+}
+.card{
+    display:flex;
+    flex-direction: column;
+    width: 22rem;
+    color: black;
+    margin-left: 30rem;
+    padding-bottom: 1rem;
+    opacity: 0.7;
+   background-color: blue;
+    border: none;
+    padding-top: 1rem;
+}
+a{
+    float: right;
+    color: white;
+}

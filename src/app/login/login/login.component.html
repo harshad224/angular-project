@@ -1,0 +1,30 @@
+
+
+<div class="container" >
+  <div class="card">
+    <label>LogIn</label>
+    <hr>
+<form [formGroup]="loginform" (ngSubmit)="submitform()" class="news-image" >
+    <div class="form-group">
+    <input type="email" placeholder="Enter valid email" class="form-control" name="email" formControlName="email"   >
+    
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    <br><br>
+    <input type="password" placeholder="Enter Password" formControlName="password" class="form-control" >
+    <br>
+    <button type="submit" class="btn btn-primary">Login</button>
+    <small><a routerLink="">forgot Password?</a> </small>
+    <br><br>
+    <div>
+      <a routerLink="/registration">Click here for SignUp</a>
+    </div>
+</div>
+</form>
+</div>
+</div>
+<!-- 
+<div >
+    <div >
+      This is some text within a card body.
+    </div>
+  </div> -->
